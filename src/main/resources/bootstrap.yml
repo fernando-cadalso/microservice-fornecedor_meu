@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 'fornecedor' 
+  profiles:
+    active: 
+      - prod
+  cloud:
+    config:
+      uri: http://windowsfx-10:8888
+      
+#O arquivo bootstrap.yml é lido antes de qualquer outra configuração da aplicação.
+#Para que essa configuração seja lida é necessário adicionar a dependência "spring cloud config client"    
