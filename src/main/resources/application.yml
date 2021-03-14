@@ -1,0 +1,22 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: 'fornecedor'
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://srv-ubuntu-db:3306/microservice_db
+    username:  microservice_user
+    password: MicroService_p4$$
+    
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8762/eureka
+    
