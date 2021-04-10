@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.alura.microservice.fornecedor.FornecedorApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.943 s - in br.com.alura.microservice.fornecedor.FornecedorApplicationTests
